@@ -1,0 +1,230 @@
+{
+  "id": "67dd9e2e-d469-47e5-ac04-e1bc1e9a1f54",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app/home",
+  "tests": [{
+    "id": "164051f3-bf3a-4b41-b2f2-8cb466b65272",
+    "name": "variedad_menu_test",
+    "commands": [{
+      "id": "6869611d-94e2-4b24-bd71-08a5abe0a6f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://healthfood-b24d8.web.app/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30f9f535-97df-408f-977c-cc99663c57f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91e15454-4c51-4e01-9190-d057be46994c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45280016-c023-4471-9b4e-c396bde22c05",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "4f041872-8c1f-4814-8cac-e2d8c4949960",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "211ae83f-1e5a-496c-b46b-759c16f853d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "699e64b9-6192-4379-903a-90eb3414fe82",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75087de3-1359-4945-b7ec-71c43aad3b85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1409f927-65e3-4807-8849-01d02207a4ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b78ea2-1bfb-43d1-b756-fb7cbc908dc8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b98bafe8-dab8-48c9-ace2-55412368c822",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.food-card:nth-child(2) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.food-card:nth-child(2) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51743dbd-7427-4585-95e2-7252e10995b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a619ed-76cb-404c-99ba-bb9fe15759a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c53a814-8f15-4b77-9b77-7403d9c1a31e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d09855b-5111-4a7f-ae0d-350deb46d607",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d5a9de-1018-49f4-b4da-3d2b1a098e64",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.food-card:nth-child(3) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.food-card:nth-child(3) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a9e68f9-8f96-4df5-b86f-f2808f5e3dad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03c1e06a-9c01-413b-aeef-d3b85b79ac8e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[2]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54bb0b75-a0a3-4cd6-a6c0-b4762ccca3a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.food-card:nth-child(22) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.food-card:nth-child(22) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[21]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea91899-05e2-4551-84bf-436b9dd3dba0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[21]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f095ad5d-5d95-4030-a1f8-ddf0a342616e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[21]/mat-card/mat-card-actions/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ec990084-b06a-45b6-a94b-d553daf4f752",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["164051f3-bf3a-4b41-b2f2-8cb466b65272"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/home"],
+  "plugins": []
+}

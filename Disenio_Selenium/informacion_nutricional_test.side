@@ -1,0 +1,185 @@
+{
+  "id": "8a026719-c0b3-4fea-8072-689127c9be39",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app",
+  "tests": [{
+    "id": "0fd0b2ae-2f73-46f4-994a-302c0553b17b",
+    "name": "informacion_nutricional_test",
+    "commands": [{
+      "id": "25235c88-13f0-43b2-afcf-3e9f84338180",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d351c05e-72c2-4640-b1ee-8952eb29e18c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e041dcc-4dc8-417d-9df4-223fd9c8701c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2946eda2-97cd-4b5d-ae70-f44eb3b888d1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e3a15e-ebab-4549-b36a-3697b7664bbf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3610bd48-ed72-41a6-8e0e-26c876b28ab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dede2415-a579-409d-9cef-a9041e8aaa0d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02fc62c-ea2f-4f0f-bfb2-8508feb29e68",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "32c744ac-8cd8-4b2f-b304-11501fd17151",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "cfcad7fb-ddb0-4df6-ac04-e1ccbb83a050",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "077403d8-1a8a-49ea-8bb2-e8a7ebd32b59",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f20c1be-3a74-45dc-8d55-4ae9ba3eea50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a1df182-1f1b-4343-932a-2769cc808649",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c6c2b8-90ea-4afa-9e03-037d0da30ded",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8186081-7004-4aff-8f83-33c44ebe1107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7308daa-59a5-4acd-affc-22593426edab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.food-card:nth-child(15) .mat-mdc-card-content",
+      "targets": [
+        ["css=.food-card:nth-child(15) .mat-mdc-card-content", "css:finder"],
+        ["xpath=//div[14]/mat-card/mat-card-content", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "39b80f2d-05a9-4208-9c74-816552a1eeba",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0fd0b2ae-2f73-46f4-994a-302c0553b17b"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/"],
+  "plugins": []
+}

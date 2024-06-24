@@ -1,0 +1,277 @@
+{
+  "id": "8660b72b-d659-4798-8e6b-41acd9a50617",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app",
+  "tests": [{
+    "id": "c724cea4-4642-4ac0-94fc-ce38bfc3abc6",
+    "name": "metodos_pago_test",
+    "commands": [{
+      "id": "2ebe582e-2b2d-4798-bbc8-af3624b8fca1",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1e32730-034c-49c2-8a04-ae939d7a4b70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09fa4486-49fb-4000-aeb0-6472c451989e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede297a6-77a6-492b-b636-c6f96d8a1206",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "2334e47d-7dd7-478d-8357-ebdf88817394",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "b35c53d7-987f-4d0f-afe0-b0dceca52f47",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3e8bb8-6e34-4a3d-b977-7671959095ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a37565e4-f162-4dad-9f2d-e98493ddca8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "150c3257-f109-4e1c-b0c7-6e77ea27a456",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc71f0d-3af2-4964-bec5-dc7ee773e03b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "346a16d5-b89d-498a-873e-b82270dfca79",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6426c54-eabb-4d86-b305-079afcbfc613",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90c2a9ec-f74d-482d-8f2b-83fa8ab78e4a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "121194b4-a419-42d5-a3ee-6343277aa543",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efae771-9f68-484c-9464-30c5b13e1f8e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c92d490-676a-428c-a3a6-33930b1b2b2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.food-card:nth-child(2) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.food-card:nth-child(2) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15157ccc-3886-451a-9665-64f37cf2d865",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20d7287-2a63-431c-aa06-af8e3eb86623",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc25a7dc-cd5b-4bc2-91e0-e13b6e09752f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(6) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(6) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[4]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5ca9591-ece2-4946-bde9-21592893eb78",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(6) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(6) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[4]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7effe52a-dd4c-4a93-848e-d9c25cb5e8a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-cart-shopping",
+      "targets": [
+        ["css=.fa-cart-shopping", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f1c9b66-01e6-4f06-8650-c63539cc5862",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button:nth-child(1) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mdc-button:nth-child(1) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a82626-0699-43e3-9248-4ac8dbba3cd0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mdc-button:nth-child(1) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mdc-button:nth-child(1) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "187a4211-ec2d-41dd-bd11-727757694344",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button:nth-child(1) > .mdc-button__label",
+      "targets": [
+        ["css=.mdc-button:nth-child(1) > .mdc-button__label", "css:finder"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Pagar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddf07c59-e21b-4acb-8db7-284035bc80d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Pagar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e991ad8b-f7a0-4de8-a82b-d09d2214d103",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c724cea4-4642-4ac0-94fc-ce38bfc3abc6"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/"],
+  "plugins": []
+}

@@ -1,0 +1,253 @@
+{
+  "id": "4f62e7e4-04b3-4a0c-96b4-dd56ae5732cd",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app",
+  "tests": [{
+    "id": "54bd529d-e877-4761-a9a8-438790e259f5",
+    "name": "Edit_Profile_test",
+    "commands": [{
+      "id": "0e4fac94-fa81-45ef-a3bf-16a67fca0f04",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58df5a90-2d50-45dc-a14a-3757c5ea896a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b56e212-dd6a-4292-b9ca-cb50787afdf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93362ce-0d81-4257-ac56-46e9af917ee0",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "901b7953-46b4-4394-a59f-86333d2b99d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "3759da7f-316b-470f-a65e-2c73f9bcc2ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=¿No tienes cuenta? Registrate aquí",
+      "targets": [
+        ["linkText=¿No tienes cuenta? Registrate aquí", "linkText"],
+        ["css=.redirection", "css:finder"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'¿No tienes cuenta? Registrate aquí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a128a97-091c-4c94-ab41-a5defc82b4f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc2da796-38ed-467b-bdbc-50d5aa1a1c88",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561e6ed5-6bd9-48c2-9e10-84c80ec7ff39",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b106c930-e227-462b-8229-ad5096a8d880",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(6) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(6) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[4]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0878afb4-188b-4f78-8626-1be0d6f9b7b3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(6) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(6) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[4]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65d5ed1-17c2-4a04-9c1e-0554e1ebec18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Perfil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbeec5cb-f585-41db-9fc2-efac9c93fc3d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3240db8f-aa6b-43c3-8c7c-83e31df2ce44",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f982ddbb-baf3-49b7-8191-69b20747c282",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-button:nth-child(1) > span",
+      "targets": [
+        ["css=.menu-button:nth-child(1) > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mis Datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d7986f-2a4f-416d-9d6d-02c41eb453bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > p",
+      "targets": [
+        ["css=div:nth-child(1) > p", "css:finder"],
+        ["xpath=//div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Abraham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8047ab-c339-436c-a0d9-f25771170f77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.update-button > .mdc-button__label",
+      "targets": [
+        ["css=.update-button > .mdc-button__label", "css:finder"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Editar Datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "440a2ee7-4d6d-4a1f-8d17-c42963a760c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .ng-untouched",
+      "targets": [
+        ["css=div:nth-child(1) > .ng-untouched", "css:finder"],
+        ["xpath=//input[@type='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c4f520-b9d0-4b06-b61d-400b17da684a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=//input[@type='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Abrahan"
+    }, {
+      "id": "a7b0f1e3-c333-4944-8b14-75115067ebfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .ng-untouched",
+      "targets": [
+        ["css=div:nth-child(2) > .ng-untouched", "css:finder"],
+        ["xpath=//input[@type='lastname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b6698f-83ab-40a1-b857-88d5fe7b6651",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(2) > .ng-untouched",
+      "targets": [
+        ["css=div:nth-child(2) > .ng-untouched", "css:finder"],
+        ["xpath=//input[@type='lastname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Estradaa"
+    }, {
+      "id": "e7e333b7-1d5e-41ca-85a6-0509f273a24c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.update-button > .mdc-button__label",
+      "targets": [
+        ["css=.update-button > .mdc-button__label", "css:finder"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Actualizar Datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cc9660e7-ba26-458f-bf63-fd43b040f1a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54bd529d-e877-4761-a9a8-438790e259f5"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/"],
+  "plugins": []
+}

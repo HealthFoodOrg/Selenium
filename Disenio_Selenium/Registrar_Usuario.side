@@ -1,0 +1,241 @@
+{
+  "id": "53440631-4c43-47e7-8890-25b1a1c5dd52",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app",
+  "tests": [{
+    "id": "5e8e3a17-3c39-498d-a489-1be8b9fe6620",
+    "name": "Registrar_Usuario",
+    "commands": [{
+      "id": "f7f1c2cf-aee5-4a66-8c82-ad2a1d78da90",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1fca573-e2c2-41fc-b42e-6e042e9cecee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2039fd99-69e7-479b-b143-462763dee7d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9826f799-c09d-4579-8f0e-db7d6fb9a078",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17111b87-02c5-47c0-b6cf-398514f9f4f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c807c47-22a7-4e6c-813c-98fa405a9d6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registrate aquí",
+      "targets": [
+        ["linkText=Registrate aquí", "linkText"],
+        ["css=.registro-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Registrate aquí')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/registro')])[2]", "xpath:href"],
+        ["xpath=//a/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d61c05f3-30f1-4f7e-bdb8-448aa2f132ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dcab89-42b5-4abd-8640-32e73a1a8248",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Renzo"
+    }, {
+      "id": "b65e7f27-4f99-4b01-88e3-4731c3068d7c",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Ferrari"
+    }, {
+      "id": "57dca194-9b94-4fa4-8102-61ef7fee69e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "zapallito03@example.com"
+    }, {
+      "id": "c25c77b2-0205-4285-ae34-9fe2f2d8e550",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "793f73fb-6e29-43b5-9201-b808f810572e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=¿Ya tienes una cuenta? Inicia Sesion",
+      "targets": [
+        ["linkText=¿Ya tienes una cuenta? Inicia Sesion", "linkText"],
+        ["css=.redirection", "css:finder"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'¿Ya tienes una cuenta? Inicia Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d5bc373-168e-4efb-a930-aa3c860c96a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicia Sesion",
+      "targets": [
+        ["linkText=Inicia Sesion", "linkText"],
+        ["css=.login-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Inicia Sesion')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/iniciosesion')])[2]", "xpath:href"],
+        ["xpath=//a/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02e8f4a2-95fc-4b06-8315-23c1c86f1d8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "zapallito03@example.com"
+    }, {
+      "id": "8636cc8d-2cbb-4e5f-8fb8-67ad7e06c5dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "f746b6d0-de06-4c96-b4ee-f0b35702f7eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=¿No tienes cuenta? Registrate aquí",
+      "targets": [
+        ["linkText=¿No tienes cuenta? Registrate aquí", "linkText"],
+        ["css=.redirection", "css:finder"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'¿No tienes cuenta? Registrate aquí')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "964affc7-f126-430e-9619-abcb1fc3afa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63a6216f-7fc6-46f6-8ec9-6dbf59895628",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Inicio de sesión fallido",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5920f11f-b700-4f25-90e8-22c0ce851ff9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "793ed271-463a-4373-845f-c4be1edf7d73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1d950fc-7709-4133-95e9-ffad5eec532c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5e8e3a17-3c39-498d-a489-1be8b9fe6620"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/"],
+  "plugins": []
+}

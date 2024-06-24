@@ -1,0 +1,276 @@
+{
+  "id": "8950392c-52b6-485d-988c-758f8df630b1",
+  "version": "2.0",
+  "name": "barra_navegacion_test",
+  "url": "https://healthfood-b24d8.web.app/home",
+  "tests": [{
+    "id": "34af897d-6b56-4ac7-89a9-7e716a9525b8",
+    "name": "barra_navegacion_test",
+    "commands": [{
+      "id": "cf2befcb-c6e8-4b9b-885b-70a11f27b8d6",
+      "comment": "",
+      "command": "open",
+      "target": "https://healthfood-b24d8.web.app/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "201953ed-32ec-44ba-a4b3-122891222006",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41d57bb4-045d-46ee-955b-54812a568a34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe4e134d-bfc2-4317-9534-2de46d75cdbb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(4) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f835bae-999e-4e1a-a71d-22dda2892444",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70735c6e-492e-4239-aceb-053a5cde331c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3fde68a-8bda-4cab-b473-3f5dfa7a8b5d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05016d6-0495-4f8f-bde7-ef15f10cf73a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01c3708-f228-477f-a85d-99a486cd4b2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "440f52e4-1258-48d3-aa8e-25cbf9477047",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15a01c28-d3ba-432d-8932-3cd21d6aade1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3990295b-9cc0-4cbd-a37e-5567cfce7c0f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9767ad19-f317-4bf1-b744-19bf61e2b05d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "ccd953b3-1163-4ee8-9832-7d47b00c6708",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "0bdd021f-c92d-48cb-a325-45be83d48a56",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Registrase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f8ba25-fd6e-4c6c-b4a0-b85ab64a8f76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Registrase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6d5764-8535-4103-8b7d-f7f17b25bc36",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Registrase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f81655-5e12-4e04-9309-f232c9001545",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "ef58ed8c-21a1-4201-9b96-b65b6a9bc254",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "d1313cee-cbd9-4175-94c3-7e1f8dec6307",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(4) > .mdc-button__label",
+      "targets": [
+        ["css=.buttons:nth-child(4) > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90de29e8-cf3e-4b8c-a88f-a0648991d2d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60bf6033-688c-482c-9c19-0292053d8d28",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elkchudovsky03@gmail.com"
+    }, {
+      "id": "b819b0a7-2c03-42ab-acee-a9c29914fa04",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "abraham123"
+    }, {
+      "id": "c2a98cb8-7df8-4886-86a8-70daa2cc0bf6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c12094c-934c-4aef-aef0-1777aea03a19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["34af897d-6b56-4ac7-89a9-7e716a9525b8"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/home"],
+  "plugins": []
+}

@@ -1,0 +1,152 @@
+{
+  "id": "35d12a0a-24ee-4bad-9dc6-9a16d4ec5253",
+  "version": "2.0",
+  "name": "Disenio_Project",
+  "url": "https://healthfood-b24d8.web.app/home",
+  "tests": [{
+    "id": "13050f48-68b1-420a-a6dd-4e8f0e0226d2",
+    "name": "preguntas_frecuentes_test",
+    "commands": [{
+      "id": "f55ddc7a-4e95-45c6-9cfb-4a025ae8d174",
+      "comment": "",
+      "command": "open",
+      "target": "https://healthfood-b24d8.web.app/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1de00322-5dc7-4ab7-9c32-ddad7018fbd6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e5e5f84-e6bb-43d9-8200-fee3c2f02b00",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f68f278-b31f-41b5-8ef9-9949c08c0039",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(3) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b6e335-ff4a-47ac-a16b-3f77e250ea94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mdc-button__label",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'FAQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b711ce-ac84-418b-ba75-f7b75c1eba01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pregunta:nth-child(2) > .btnfaq",
+      "targets": [
+        ["css=.pregunta:nth-child(2) > .btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2da4104-36bb-4b14-9ebf-7930864cbb9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pregunta:nth-child(3) > .btnfaq",
+      "targets": [
+        ["css=.pregunta:nth-child(3) > .btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b80c90-1c9c-4870-8c02-9e703f67fa1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pregunta:nth-child(4) > .btnfaq",
+      "targets": [
+        ["css=.pregunta:nth-child(4) > .btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3418e77f-dcf4-4847-ac68-7d85fca1df7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pregunta:nth-child(5) > .btnfaq",
+      "targets": [
+        ["css=.pregunta:nth-child(5) > .btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd6df34e-cb20-4344-b396-41d21dfc16d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pregunta:nth-child(6) > .btnfaq",
+      "targets": [
+        ["css=.pregunta:nth-child(6) > .btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89687128-08f2-43d8-a1e2-4a096226ed72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnfaq",
+      "targets": [
+        ["css=.btnfaq", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff22c29c-8b18-443b-8b16-1f62792337ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "129ef329-99a1-4092-8edf-63c80693826c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.buttons:nth-child(5) > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.buttons:nth-child(5) > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//a[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "afd49296-4f6a-4ee3-9b76-1d8266ee8870",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["13050f48-68b1-420a-a6dd-4e8f0e0226d2"]
+  }],
+  "urls": ["https://healthfood-b24d8.web.app/home"],
+  "plugins": []
+}
